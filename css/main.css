@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #444;
+}
+
+.text-lime {
+  color: limegreen;
+}
+
+#navbar {
+  z-index: 1;
+  text-transform: uppercase;
+  width: 100%;
+}
+#navbar a,
+#navbar i {
+  color: #fff;
+  transition: 0.3s;
+}
+#navbar a:hover {
+  color: limegreen;
+}
+#navbar .fa-bars {
+  padding: 10px;
+}
+#navbar .navbar-brand {
+  font-weight: bold;
+}
+#navbar .active {
+  color: limegreen;
+}
+
+.hero-img {
+  position: relative;
+  height: 100vh;
+  background-image: url(../img/game-console_640.jpg);
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+.hero-img .hero-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.hero-img .hero-text h1 {
+  letter-spacing: 1px;
+}
+
+.hero-shadow {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.next {
+  height: 100vh;
+}
+
+@media (min-width: 992px) {
+  .hero-img {
+    background-image: url(../img/game-console_1920.jpg);
+  }
+}/*# sourceMappingURL=main.css.map */
