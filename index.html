@@ -24,14 +24,16 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    
+
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body data-bs-spy="scroll" data-bs-target="#navbar ">
     <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0">
       <div class="container">
         <a class="navbar-brand" href="#"
-          ><i class="fa-solid fa-headphones"></i> Ultra<span class="text-lime">Gamers</span></a
+          ><i class="fa-solid fa-headphones"></i> Ultra<span class="text-lime"
+            >Gamers</span
+          ></a
         >
         <button
           class="navbar-toggler"
@@ -58,14 +60,59 @@
       </div>
     </nav>
     <header id="home">
-      <div class="hero-img ">
+      <div class="hero-img">
         <div class="hero-shadow"></div>
-        <div class="hero-text ">
-            <h1>Witajcie w Ultra<span class="text-lime">Gamers</span></h1>
-            <p>Miejsce gdzie stworzymy dla Ciebie gre</p>
+        <div class="hero-text">
+          <h1>Witajcie w Ultra<span class="text-lime">Gamers</span></h1>
+          <p>Miejsce w którym stworzymy dla Ciebie gre</p>
+          <a href="#aboutus" type="button" class="btn btn-outline-light"
+            >poznaj nas</a
+          >
         </div>
+        <a href="#aboutus"><i class="fa-solid fa-arrow-down"></i></a>
       </div>
     </header>
-    <div class="next"></div>
+    <main>
+      <section id="aboutus" class="aboutus bg-light py-5">
+        <div class="container">
+          <h2>o nas</h2>
+          <div class="underline"></div>
+          <div class="row">
+            <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                <p><i class="fa-solid fa-mobile-screen-button "></i></p>
+                <p class="aboutus-card-title mb-1">mobile gaming</p>
+                <p class="aboutus-card-text">Tworzymy gry na urządzenia mobilne</p>
+            </div>
+            <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                <p><i class="fa-solid fa-desktop"></i></p>
+                <p class="aboutus-card-title mb-1">desktop gaming</p>
+                <p class="aboutus-card-text">Tworzymy gry na PC</p>
+            </div>
+            <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                <p><i class="fa-solid fa-bolt"></i></p>
+                <p class="aboutus-card-title mb-1">najwyzsze standardy</p>
+                <p class="aboutus-card-text">Przykladamy się w 100%</p>
+            </div>
+            <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                <p><i class="fa-solid fa-shield-cat"></i></p>
+                <p class="aboutus-card-title mb-1">kochamy koty</p>
+                <p class="aboutus-card-text">Oczywiścież, że nie tylko ;D</p>
+            </div>
+            <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                <p><i class="fa-solid fa-pizza-slice"></i></p>
+                <p class="aboutus-card-title mb-1">lubimy dobrze zjeść</p>
+                <p class="aboutus-card-text">Najedzenie pracujemy dużo lepiej</p>
+            </div>
+            <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                <p><i class="fa-solid fa-child-reaching"></i></p>
+                <p class="aboutus-card-title mb-1">Świetne relacje</p>
+                <p class="aboutus-card-text">Z nami zawsze mozesz sie pośmiać</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="aboutus" class="next"></div>
+    <script src="./js/main.js"></script>
   </body>
 </html>
