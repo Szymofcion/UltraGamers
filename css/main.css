@@ -145,6 +145,40 @@ h2 {
   z-index: -1;
 }
 
+.aboutus-hero-item {
+  margin: 10px 0;
+}
+.aboutus-hero-item i {
+  font-size: 36px;
+}
+.aboutus-hero-item .aboutus-hero-title {
+  font-size: 24px;
+}
+
+.portofolio .carousel-item {
+  position: relative;
+  height: 600px;
+}
+.portofolio .carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 30px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.portofolio .carousel-indicators {
+  padding-bottom: 20px;
+}
+
+.card {
+  margin: 15px;
+  border-radius: 40px;
+  border: none;
+}
+.card .card-img-top {
+  height: 200px;
+}
+
 @media (min-width: 375px) {
   #navbar {
     padding: 15px;
@@ -157,6 +191,9 @@ h2 {
   }
   .hero-img .hero-text p {
     font-size: 16px;
+  }
+  .card {
+    margin: 10px 40px;
   }
 }
 @media (min-width: 768px) {
@@ -173,6 +210,12 @@ h2 {
   }
   .hero-img {
     background-image: url(../img/game-console_1920.jpg);
+  }
+  .hero-img-game {
+    background-image: url(../img/processor_1920.jpg);
+  }
+  .carousel-item img {
+    height: 600px;
   }
 }
 @media (min-width: 1200px) {
