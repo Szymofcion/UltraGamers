@@ -215,6 +215,7 @@ h2 {
     background-image: url(../img/processor_1920.jpg);
   }
   .carousel-item img {
+    padding: 10px;
     height: 600px;
   }
 }
