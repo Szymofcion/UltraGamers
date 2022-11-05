@@ -155,6 +155,9 @@ h2 {
   font-size: 24px;
 }
 
+.portofolio .container {
+  width: 55%;
+}
 .portofolio .carousel-item {
   position: relative;
   height: 600px;
@@ -177,6 +180,43 @@ h2 {
 }
 .card .card-img-top {
   height: 200px;
+}
+
+.prices .price-box {
+  background-color: #fff;
+  margin: 20px 10px;
+  padding: 20px 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s;
+}
+.prices .price-box h3 {
+  color: limegreen;
+  text-transform: uppercase;
+}
+.prices .price-box span {
+  font-weight: bold;
+}
+.prices .price-box i {
+  font-size: 24px;
+  padding: 0 5px;
+}
+.prices .price-box button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.prices .price-box .price-tag {
+  font-size: 30px;
+  font-weight: bold;
+}
+.prices .price-box:hover {
+  transform: scale(1.05);
+}
+
+.price-info {
+  margin-top: 30px;
+}
+.price-info a {
+  text-decoration: none;
 }
 
 @media (min-width: 375px) {
@@ -215,8 +255,10 @@ h2 {
     background-image: url(../img/processor_1920.jpg);
   }
   .carousel-item img {
-    padding: 10px;
     height: 600px;
+  }
+  .price-info {
+    font-size: 28px;
   }
 }
 @media (min-width: 1200px) {

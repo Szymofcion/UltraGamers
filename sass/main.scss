@@ -157,6 +157,9 @@ h2 {
 
 //portfolio >992px
 .portofolio {
+  .container {
+    width: 55%;
+  }
   .carousel-item {
     position: relative;
     height: 600px;
@@ -177,9 +180,49 @@ h2 {
   margin: 15px;
   border-radius: 40px;
   border: none;
-  
-  .card-img-top{
+
+  .card-img-top {
     height: 200px;
+  }
+}
+
+//ceny
+.prices {
+  .price-box {
+    background-color: $white-color;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    transition: transform .3s;
+
+    h3 {
+      color: $lime-color;
+      text-transform: uppercase;
+    }
+    span {
+      font-weight: bold;
+    }
+    i {
+      font-size: 24px;
+      padding: 0 5px;
+    }
+    button {
+      padding: 10px 20px;
+      text-transform: uppercase;
+    }
+    .price-tag {
+      font-size: 30px;
+      font-weight: bold;
+    }
+  }
+  .price-box:hover{
+    transform: scale(1.05);
+  }
+}
+.price-info{
+  margin-top: 30px;
+  a{
+    text-decoration: none;
   }
 }
 @media (min-width: 375px) {
@@ -201,7 +244,6 @@ h2 {
   }
   .card {
     margin: 10px 40px;
-  
   }
 }
 @media (min-width: 768px) {
@@ -226,11 +268,13 @@ h2 {
   .hero-img-game {
     background-image: url(../img/processor_1920.jpg);
   }
-  .carousel-item{
-    img{
-padding: 10px;
+  .carousel-item {
+    img {
       height: 600px;
     }
+  }
+  .price-info{
+    font-size: 28px;
   }
 }
 
